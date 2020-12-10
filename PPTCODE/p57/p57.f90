@@ -1,4 +1,5 @@
 PROGRAM main
+
  INTEGER :: i
  REAL     :: r
  DOUBLE PRECISION :: d
@@ -13,19 +14,21 @@ PROGRAM main
  d2 = 1.3d0
  s = "sa"
  s = 'sa'
- b = .TRUE
+ sa = "sa"
+ b = .TRUE.
 
  !算数运算
  i = 1 + i ! + 加法 ，- 减法 ， * 乘法 ， / 除法
  
  !整形运算
  i = 3/4
+
  WRITE(*,*) "INTEGER:",i
  WRITE(*,*) "REAL   :",r
  WRITE(*,*) "DOUBLE :",d
  WRITE(*,*) "REAL(8):",d2
  WRITE(*,*) "CHARACTER:",s
- WRITE(*,*) "CHARACTER(LEN=10):",sa
+ WRITE(*,*) "CHARACTER(LEN=10) :",sa
  WRITE(*,*) "LOGICAL:",b
  
  
